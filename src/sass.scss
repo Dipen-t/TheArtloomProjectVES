@@ -1,0 +1,23 @@
+nav {
+    span {
+
+        cursor: pointer !important;
+        text-transform: uppercase !important;
+        font-size: small;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            color: white;
+            font-weight: bolder;
+        }
+    
+    }
+}
+
+.border-bottom{
+    border-bottom: 1px solid #e5e3e3;
+    border-right: 1px solid #e5e3e3;
+}
+.line{
+    border-bottom: 1px solid #e5e3e3;
+}
